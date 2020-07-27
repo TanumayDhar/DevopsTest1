@@ -6,17 +6,17 @@
     stages {
         stage('Build') {
             steps {
-                echo 'Building..'
+                echo 'Building..the application'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing.the application.'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying in server....'
+                echo 'Deploying in server...'
             }
         }
     }
