@@ -7,6 +7,10 @@
         stage('SCM Checkout') {
             steps {
                 git "https://github.com/TanumayDhar/DevopsTest1.git"
+                
+                script{
+                bat (/mvn clean test/)
+                }
             }
         }
         stage('Build') {
