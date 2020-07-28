@@ -6,7 +6,7 @@
  	
         stage('SCM Checkout') {
             steps {
-                git "checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'GitCredentials', url: 'https://github.com/TanumayDhar/DevopsTest1']]])"
+                git "https://github.com/TanumayDhar/DevopsTest1.git"
             }
         }
         stage('Build') {
