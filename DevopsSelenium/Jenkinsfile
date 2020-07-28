@@ -6,7 +6,7 @@
  	
         stage('SCM Checkout') {
             steps {
-                git "https://github.com/TanumayDhar/DevopsTest1/tree/master/DevopsSelenium"
+                git "https://github.com/TanumayDhar/DevopsTest1/DevopsSelenium"
             }
         }
         stage('Build') {
