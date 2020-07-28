@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="TestSuite01"  >
+
+
+  <test name="seleniumDemo" >
+  
+    <classes>
+       <class name="com.devops.seleniumDemo.NewTest" />
+       
+    </classes>
+    
+    </test>
+ 
+      
+</suite>
