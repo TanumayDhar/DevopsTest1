@@ -35,7 +35,7 @@
               
               
            
-             bat label: '', script: 'C:\\Program Files\\apache-maven-3.6.3\\bin\\mvn -Dmaven.test.failure.ignore=true clean package'
+             bat label: '', script: 'C:\\PROGRA~2\\apache-maven-3.6.3\\bin\\mvn -Dmaven.test.failure.ignore=true clean package'
  
               
                 
