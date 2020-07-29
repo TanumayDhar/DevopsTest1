@@ -1,12 +1,19 @@
  pipeline {
+ 
+ 	//tool name: 'maven', type: 'maven'
+ 	
+ 	def mvnHome = tool name: 'maven', type: 'maven' 
+    
+    
     agent any
 
- 
  	stages {
  	
         stage('SCM Checkout') {
             steps {
-                git "https://github.com/TanumayDhar/DevopsTest1.git"
+               
+               
+               checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[credentialsId: 'e3170388-caf7-4486-b50a-2ff070d7017f', url: 'https://github.com/TanumayDhar/DevopsTest1.git']]])
                 
                 
             }
@@ -24,7 +31,13 @@
             steps {
             
             	
-                bat "mvn clean install"
+              //  bat "mvn clean install"
+              
+              
+           
+             bat label: '', script: 'C:\\Program Files\\apache-maven-3.6.3\\bin\\mvn -Dmaven.test.failure.ignore=true clean package'
+ 
+              
                 
                 echo 'Test and Deploying in server...'
             }
