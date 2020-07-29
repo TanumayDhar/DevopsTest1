@@ -23,9 +23,9 @@
         stage('Integration Test') {
             steps {
             
-            	script{
-                bat (/mvn clean test/)
-                }
+            	
+                bat "mvn clean install"
+                
                 echo 'Test and Deploying in server...'
             }
         }
