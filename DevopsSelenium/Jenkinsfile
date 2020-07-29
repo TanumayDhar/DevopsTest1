@@ -2,7 +2,7 @@
  
  	//tool name: 'maven', type: 'maven'
  	
- 	def mvnHome = tool name: 'maven', type: 'maven' 
+ 	//def mvnHome = tool name: 'maven', type: 'maven' 
     
     
     agent any

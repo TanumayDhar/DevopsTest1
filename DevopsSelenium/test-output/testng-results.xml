@@ -1,14 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[Browser is maximized]]>
+    </line>
   </reporter-output>
-  <suite name="TestSuite01" duration-ms="47" started-at="2020-07-28T09:29:03Z" finished-at="2020-07-28T09:29:03Z">
+  <suite name="TestSuite01" duration-ms="6850" started-at="2020-07-29T09:18:52Z" finished-at="2020-07-29T09:18:59Z">
     <groups>
     </groups>
-    <test name="seleniumDemo" duration-ms="47" started-at="2020-07-28T09:29:03Z" finished-at="2020-07-28T09:29:03Z">
+    <test name="seleniumDemo" duration-ms="6850" started-at="2020-07-29T09:18:52Z" finished-at="2020-07-29T09:18:59Z">
       <class name="com.devops.seleniumDemo.NewTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.devops.seleniumDemo.NewTest@214b199c]" name="f" duration-ms="22" started-at="2020-07-28T14:59:03Z" finished-at="2020-07-28T14:59:03Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.devops.seleniumDemo.NewTest@25a65b77]" name="f" duration-ms="6832" started-at="2020-07-29T14:48:52Z" finished-at="2020-07-29T14:48:59Z">
           <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[Browser is maximized]]>
+            </line>
           </reporter-output>
         </test-method> <!-- f -->
       </class> <!-- com.devops.seleniumDemo.NewTest -->
