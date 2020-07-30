@@ -21,7 +21,7 @@
         stage('Build') {
             steps {
              
-                
+          readFile 'DevopsSelenium\\pom.xml'  
        			echo 'Building the application...'
                 
                 
