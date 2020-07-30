@@ -41,7 +41,8 @@ public class NewTest {
 		Reporter.log(expectedTitle);
 
 		driver.close();
-		Reporter.log("Browser is closed");
+		Reporter.log("Browser is closed and to test the POll SCM feature");
+		
 
 	}
 }
