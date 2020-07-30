@@ -31,8 +31,7 @@
             steps {
             
             	
-             bat "maven test"
-              
+           bat (/mvn clean test/)
               
            
             // bat label: '', script: 'C:\\PROGRA~2\\apache-maven-3.6.3\\bin\\mvn -Dmaven.test.failure.ignore=true clean package'
