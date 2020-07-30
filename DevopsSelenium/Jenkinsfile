@@ -21,7 +21,7 @@
         stage('Build') {
             steps {
              
-          readFile 'DevopsSelenium\\pom.xml'  
+          
        			echo 'Building the application...'
                 
                 
@@ -33,7 +33,7 @@
             	
            //bat (/mvn clean test/)
            bat 'mvn test'  
-              
+               readFile 'DevopsSelenium\\pom.xml' 
            
             //bat label: '', script: 'C:\\PROGRA~2\\apache-maven-3.6.3\\bin\\mvn -Dmaven.test.failure.ignore=true clean package'
  
