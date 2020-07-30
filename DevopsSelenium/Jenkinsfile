@@ -34,9 +34,9 @@
            //bat (/mvn clean test/)
               
            
-            // bat label: '', script: 'C:\\PROGRA~2\\apache-maven-3.6.3\\bin\\mvn -Dmaven.test.failure.ignore=true clean package'
+            bat label: '', script: 'C:\\PROGRA~2\\apache-maven-3.6.3\\bin\\mvn -Dmaven.test.failure.ignore=true clean package'
  
-             bat label: '', script: 'C:\\PROGRA~2\\apache-maven-3.6.3\\bin\\mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Dmaven.test.failure.ignore=false'  
+             //bat label: '', script: 'C:\\PROGRA~2\\apache-maven-3.6.3\\bin\\mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install -Dmaven.test.failure.ignore=false'  
               
                 echo 'Test and Deploying in server...'
             }
