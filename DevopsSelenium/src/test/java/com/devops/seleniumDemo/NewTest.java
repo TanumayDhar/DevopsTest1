@@ -16,7 +16,8 @@ public class NewTest {
 	public void LaunchBrowser()
 	{
 
-		System.setProperty("webdriver.chrome.driver", "C:\\Personal\\softwares\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Personal\\softwares\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Selenium files\\chromedriver_win32\\chromedriver.exe");
 		
 		driver = new ChromeDriver();
 		Reporter.log("Browser is launched");
