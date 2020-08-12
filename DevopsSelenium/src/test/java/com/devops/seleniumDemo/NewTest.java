@@ -17,6 +17,7 @@ public class NewTest {
 	{
 
 		System.setProperty("webdriver.chrome.driver", "C:\\Personal\\softwares\\chromedriver_win32\\chromedriver.exe");
+		
 		driver = new ChromeDriver();
 		Reporter.log("Browser is launched");
 		driver.manage().window().maximize();
